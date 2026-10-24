@@ -1,0 +1,11 @@
+{
+  "name": "flower-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An original, locally saved storybook side-scrolling RPG",
+  "scripts": {
+    "start": "python -m http.server 4173 --directory docs",
+    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/renderer.js"
+  }
+}
